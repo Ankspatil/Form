@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_11.css">
+    <title>Addmition Form</title>
+</head>
+<body>
+    <h2>Please fill addmition from here</h2>
+    <form action="">
+<input type="text"  name="f_name" placeholder="First_name" required>
+<br>
+<input type="text" name="l_name" placeholder="Last_name" required>
+<br>
+<input type="email" name="email" placeholder="Email">
+<br>
+<input type="number"  name="phone" placeholder="Enter your mobile number" maxlength="10" >
+<br>
+<select name="Gender" title="something">   
+    <option value="">Male</option>
+    <option value="">Female</option>
+    <option value="">Others</option>
+</select>
+<br>
+<input type="date" name="dob" placeholder="date of birth" >
+<br>
+<input type="text" name="college" placeholder="College name" >
+<br>
+<select name="digree" id="">
+<optgroup label="degree">
+
+    <option value="">B.E</option>
+    <option value="">B.TECH</option>
+    <option value="">BCA</option>
+    <optgroup label="Masters">
+      <option value="">M.tech</option>
+      <option value="">M.E</option>
+      <option value="">MCA</option>
+    </optgroup>
+</optgroup>
+</select>
+<br>
+
+<br>
+<input type="text" name="Address" placeholder="Address" max="200">
+<br>
+<input type="text" name="persentage" placeholder="persentage%">
+<br>
+<select aria-label="select">
+<optgroup label="Select courses">
+
+    <option value="">Web fundamentals</option>
+    <option value="">Java fundamentals</option>
+    <option value="">DSA fundamentals</option>
+    <optgroup label="Masters courses">
+      <option value="">Advance java fundamentals</option>
+      <option value="">Advance web fundamentals</option>
+      <option value="">Advance DSA fundamentals</option>
+    </optgroup>
+</optgroup>
+</select>
+<br>
+<input type="file" name="resume" placeholder="upload resume">
+<br>
+<button onclick="sub()">Submit</button>
+    </form>
+    <script>
+             function sub()
+             {
+                location.replace("fillfrom.html")
+             }
+    </script>
+</body>
+</html>

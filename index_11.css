@@ -1,0 +1,28 @@
+form{
+    background-color: antiquewhite;
+    height: auto;
+    width: 400px;
+    margin-left: 30%;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+input{
+    margin: 5px;
+    height: 25px;
+    width: 250px;
+}
+h2{
+margin-left: 32%;
+}
+button{
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+}
